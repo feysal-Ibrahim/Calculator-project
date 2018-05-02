@@ -1,7 +1,19 @@
-
-var a = parseFloat(prompt("Enter Num 1"))
-var b = parseFloat(prompt("Enter Num 2"))
-
-var results= a+b
-
-alert(results)
+function c(val)
+{
+document.getElementById("d").value=val;
+}
+function v(val)
+{
+document.getElementById("d").value+=val;
+}
+function e()
+{
+try
+{
+  c(eval(document.getElementById("d").value))
+}
+catch(e)
+{
+  c('Error')
+}
+}
